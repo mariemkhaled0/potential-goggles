@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Big Shoulders Display', cursive;
+font-family: 'Fraunces', serif;
+font-family: 'Karla', sans-serif;
+font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+background-color:hsl(204, 43%, 93%);
+font-size: 16px;
+}
+.contanier{
+  top: 50%;  
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  display: grid;
+  grid-template-rows: auto auto;
+  
+
+}
+.contanier .div1{
+    background-color:white ;
+    
+
+}
+.contanier .div1 h1{
+    color:  hsl(179, 62%, 43%);
+    margin: 30px;
+}
+.contanier .div1 span{
+    color: hsl(71, 73%, 54%);
+    margin: 30px;
+    
+}
+.contanier .div1 p{
+    margin: 20px;
+    color:hsl(204, 43%, 93%);
+}
+.contanier .text{
+  display: grid; 
+  grid-template-columns: auto auto;
+}
+.contanier .text .div2
+{   color:white ;
+    background-color:  hsl(179, 62%, 43%);
+
+}
+.contanier .text .div2 h2{
+margin:  30px;
+font-size: smaller;
+
+}
+.contanier .text .div3{
+    background-color: hsl(179, 65%, 25%);
+    color: white;
+    
+    
+}
+.contanier .text .div3 h4{
+    margin:   30px;
+}
+.contanier .text .div3 p{
+    color: hsl(204, 43%, 93%);
+    margin: 30px;
+}
+.contanier .text h3{
+    margin:5px 30px;
+}
+.contanier .text span{
+    color: hsl(204, 43%, 93%);
+    font-size: x-small;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: absolute;
+}
+.contanier .text .div2 .p1{
+ margin:5px 30px;
+ color: hsl(204, 43%, 93%);
+}
+.contanier .text .div2 button{
+    margin: 20px;
+    width: 80%;
+    padding:  10px;
+    background-color: hsl(71, 73%, 54%);
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+}
+@media(min-width:414)
+{   
+    .contanier {
+        display: inline
+        
+    }
+    
+}
